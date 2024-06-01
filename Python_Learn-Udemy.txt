@@ -1,0 +1,10 @@
+Eclipes- [PyDev]
+
+obj| functional
+proformance good --->interpreted language (no compilationsteps) | rapid dev | dynamic data type
+
+
+Eclipes| VisualStudioCode ---> plugin [PyDev] install
+1) download python-3.12.3-amd64.exe and install
+		pyDev
+		PyCharm  --> https://www.jetbrains.com/pycharm/download/?section=windows   [PyCharm Community Edition]
