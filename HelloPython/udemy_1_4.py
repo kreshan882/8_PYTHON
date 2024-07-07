@@ -102,8 +102,8 @@ for i in r:
 
 print("S4.40 bytearray..............................................")
 lstk=[2,3,4,55]
-b=bytes(lstk)
-ba=bytearray(lstk)
+b=bytes(lstk)  #immuitable
+ba=bytearray(lstk)  #mutable
 ba[2]=33   # only byte array can update | byes can not update
 
 
