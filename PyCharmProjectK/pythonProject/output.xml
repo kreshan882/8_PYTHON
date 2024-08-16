@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-08-17T03:47:40.970654" rpa="false" schemaversion="5">
+<suite id="s1" name="TC1" source="D:\8_PYTHON\PyCharmProjectK\pythonProject\TestCases\TC1.robot">
+<test id="s1-t1" name="LoginTest" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-17T03:47:41.150278" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-17T03:47:41.149184" elapsed="3.221915"/>
+</kw>
+<status status="PASS" start="2024-08-17T03:47:41.149184" elapsed="3.221915"/>
+</test>
+<status status="PASS" start="2024-08-17T03:47:40.972654" elapsed="3.401445"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
