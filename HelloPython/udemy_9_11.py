@@ -1,7 +1,7 @@
 print("S9.64 Flow Control Statement.................................................")
 # if | while,fore| break, continue,pass, retuen
 
-"""
+
 x=2
 if x==0:
     print(x," is zero")
@@ -107,7 +107,7 @@ while i<x:
     if(i>35): break
     print(i)
     
-"""
+
 
 print("S10.82 More Program.................................................")
 
@@ -150,6 +150,7 @@ for c in s:
         dict[c] = dict[c]+1
     else:
         dict[c] =1
+
 for k,v in dict.items():
     print("{}={} ".format(k,v)  ,end="")  # end--same line --> a=3  b=2 c=1 d=3
 
@@ -199,6 +200,7 @@ print("\nChoose Option: \n"
       "4. Deposit Cheque\n")
 
 lst = sys.argv
+lst = ["111","222"]
 
 if int(lst[1]) == 1:
     print(amount)
